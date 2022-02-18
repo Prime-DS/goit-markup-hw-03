@@ -1,0 +1,241 @@
+/* 
+#2196F3;++++
+
+#212121; ++++ 
+
+#757575; +++++ 
+
+#FFFFFF; header ++++
+
+#2F303A; footer
+
+#F5F4FA;
+
+#E5E5E5;
+беграунд мейна */
+
+:root {
+  /* Цвета */
+  --primary-text-color: #757575;
+  --primery-title-color: #212121;
+  --accent-color: #2196f3;
+  --header-bg-color: #ffffff;
+  --footer-bg-color: #2f303a;
+
+  /* Основные шрифты */
+  --main-font: Roboto;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-txt);
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primery-title-color);
+}
+
+.contact-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.contact-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+/* Header */
+.header {
+  background-color: var(--header-bg-color);
+}
+
+a.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-primery {
+  color: var(--primery-title-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-list .nav-link.current {
+  color: var(--accent-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+
+.contact-phone:hover,
+.contact-phone:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--footer-bg-color);
+}
+
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--header-bg-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--header-bg-color);
+
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.hero-btn {
+  background-color: var(--accent-color);
+}
+
+/* Особенности */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-title-color);
+}
+
+.subtitle {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primery-title-color);
+}
+
+/* Team */
+.team {
+  background-color: #f5f4fa;
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-title-color);
+}
+p.text {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+a.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-secondary {
+  color: var(--header-bg-color);
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--header-bg-color);
+}
+
+.footer-link {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+
+.portfolio-nav-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primery-title-color);
+  background-color: #f5f4fa;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.portfolio-nav-btn:hover,
+.portfolio-nav-btn:focus {
+  color: var(--header-bg-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--primery-title-color);
+}
