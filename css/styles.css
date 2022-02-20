@@ -97,6 +97,7 @@ p {
 
 /* Header */
 .header {
+  border-bottom: 1px solid #ececec;
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: var(--header-bg-color);
@@ -106,7 +107,7 @@ p {
   align-items: center;
 }
 
-.heder-nav {
+.header-nav {
   display: flex;
   align-items: center;
 }
@@ -142,8 +143,8 @@ a.logo {
 
 .nav-link {
   display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 31px;
+  padding-bottom: 31px;
 
   font-weight: 500;
   font-size: 14px;
@@ -161,6 +162,11 @@ a.logo {
 .contact-list {
   display: flex;
   margin-left: auto;
+}
+
+.contact-list-item {
+  padding-top: 31px;
+  padding-bottom: 31px;
 }
 
 .contact-list-item:not(:last-child) {
@@ -288,21 +294,29 @@ a.logo {
   display: flex;
 }
 
+.team-list-item {
+  box-shadow: 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
+  background-color: var(--header-bg-color);
+}
+
 .team-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
 .team-div {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-subtitle {
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: var(--primery-title-color);
 }
 
